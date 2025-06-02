@@ -1,0 +1,16 @@
+| Command                                            | Description                                              |
+| -------------------------------------------------- | -------------------------------------------------------- |
+| `git init`                                         | Initializes a new Git repository in your current folder. |
+| `git clone <url>`                                  | Copies a remote repository to your local machine.        |
+| `git status`                                       | Shows changes, staged files, and untracked files.        |
+| `git add <file>`                                   | Stages a file to be committed. Use `.` to add all files. |
+| `git commit -m "message"`                          | Saves your staged changes with a message.                |
+| `git push`                                         | Uploads local commits to the remote repository.          |
+| `git pull`                                         | Downloads changes from the remote repo and merges them.  |
+| `git log`                                          | Shows the history of commits.                            |
+| `git branch`                                       | Lists all branches.                                      |
+| `git checkout <branch>`                            | Switches to another branch.                              |
+| `git merge <branch>`                               | Merges the given branch into the current branch.         |
+| `git remote -v`                                    | Shows remote repository URLs.                            |
+| `git config --global user.name "Your Name"`        | Sets your Git username.                                  |
+| `git config --global user.email "you@example.com"` | Sets your Git email.                                     |
